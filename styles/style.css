@@ -7,6 +7,54 @@ html, body, main, header{
     scroll-behavior: smooth;
 }
 
-ul{
+/*HOME PAGE STYLING*/
+header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+/*HEADER AND NAV STYLING*/
+ #home-main-nav{
+    width: 95%;
+    height: 3em;
+    background-color: rgba(50, 50, 50, .84);
+}
+  
+#home-main-nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+  
+#home-main-nav ul li{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+  
+#home-main-nav ul li a{
     text-decoration: none;
+}
+  
+#home-main-nav ul li a:hover{
+    background-color: rgba(255,255,255,.84);
+    color: #fff;
+}
+  
+/*HOMEPAGE H1 AND H2 DIV STYLING*/
+#home-title{
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+    align-items: center;
+}
+  
+#home-title h1{
+    font-size: 3em;
+}
+
+#home-title h2{
+    font-size: 1em;
 }
