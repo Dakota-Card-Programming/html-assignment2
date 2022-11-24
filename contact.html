@@ -9,52 +9,37 @@
     <body>
         <!--the top of our website-->
         <header>
-            <!--adding navigation for all my other pages-->
+            <!--adding nav to all my pages-->
             <nav>
                 <!--list of our links-->
                 <ul>
-                    <!--link to our index file (home page)-->
                     <li>
                         <a href="./">Home</a>
                     </li>
-                    <!--link to our contact page-->
                     <li>
                         <a href="./contact.html">Contact Me</a>
                     </li>
-                    <!--link to our about page-->
                     <li>
                         <a href="./about.html">About Me</a>
                     </li>
                 </ul>
             </nav>
-            <!--header of website-->
-            <h1>Contact Me</h1>
         </header>
         <main>
-            <h2>Below you can find all of my relevant contact information. Email would be the quickest way but all options are viable.</h2>
-            <!--sections with all my contact information-->
-            <section>
-                <h2>Email</h2>
-                <p>dakotacard77@outlook.com</p>
-            </section>
-            <!--section with my phone number-->
-            <section>
-                <h2>Phone Number</h2>
-                <p>1-(705)-717-0313</p>
-            </section>
-            <!--section with a link to my linkedin profile-->
-            <section>
-                <h2>LinkedIn Profile</h2>
-                <a href="https://www.linkedin.com/in/dakota-card-295108251/">linkedin.com/dakota-card</a>
-            </section>
-            <!--section with a link to my github profile-->
-            <section>
-                <h2>Github</h2>
-                <a href="https://github.com/Dakota-Card-Programming">github.com/dakota-card</a>
+            <!--section with all contact-->
+            <section id="contact-section-1">
+            <!--header of website-->
+            <h1>Get In Touch</h1>
+            <p>
+                I hope you got to know a bit about me and my abilities, I am open to any opportunities and willing to learn if need be. If you have any more questions, feel free to leave your contact information below, and I will get back to you. Or you can contact me at:
+            <p>
+            <ul>
+                <a href="https://outlook.live.com"></a><li>dakotacard77@outlook.com</li></a>
+                <li>705-717-0313</li>
+            </ul>
             </section>
             <!--section with a form for them to leave their contact info-->
-            <section>
-                <p>Below you can leave your contact information for easier contact to you if you wish.</p>
+            <section id="contact-section-2">
                 <form action="./index.html" method="post" name="assignment-01-contact-me" netlify>
                     <!--Personal Info fieldset-->
                     <fieldset>
@@ -84,7 +69,7 @@
                     <fieldset>
                         <legend>Inquiry</legend>
                         <div>
-                            <label for="inquiryType">What would you like to inquire about?</label><br>
+                            <label for="inquiryType">What is the reason for your visit?</label><br>
                             <select name="inquiryType" id="inquiryType" required>
                                 <option value="employment" selected>Employment Opportunity</option>
                                 <option value="freelance">Freelance Inquiry</option>
@@ -104,8 +89,20 @@
                 </form>
             </section>
         </main>
-        <footer>
-            &copy; Dakota Card
+        <footer id="contact-footer">
+            <div>
+                <p>Designed and build by</p>
+                &copy; Dakota Card
+            </div>
+            <!--adding links to relevant website-->
+            <!--Github-->
+            <a href="https://github.com/Dakota-Card-Programming">
+                <img src="./img/github.png" alt="github logo">
+            </a>
+            <!--Linkedin-->
+            <a href="https://www.linkedin.com/in/dakota-card-295108251/">
+                <img src="./img/linkedin.png" alt="linkedin logo">
+            </a>
         </footer>
     </body>
 </html>
