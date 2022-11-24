@@ -1,0 +1,12 @@
+/*IMPORTING RESET STYLES*/
+@import url(./reset.css);
+
+/*HOME PAGE STYLING*/
+html, body, main, header{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+ul{
+    text-decoration: none;
+}
