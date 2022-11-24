@@ -7,58 +7,115 @@
         <title>About Me</title>
     </head>
     <body>
-        <!--the top of our website-->
+        <!--the top of website-->
         <header>
-            <!--adding navigation for all my other pages-->
+            <!--adding nav to all my pages-->
             <nav>
-                <!--list of our links-->
+                <!--list of links-->
                 <ul>
-                    <!--link to our index file (home page)-->
                     <li>
                         <a href="./">Home</a>
                     </li>
-                    <!--link to our contact page-->
                     <li>
                         <a href="./contact.html">Contact Me</a>
                     </li>
-                    <!--link to our about page-->
                     <li>
                         <a href="./about.html">About Me</a>
                     </li>
                 </ul>
             </nav>
             <!--header of website-->
-            <h1>About Me</h1>
+            <h1>About Me - Dakota Card</h1>
         </header>
         <main>
             <!--section about me-->
-            <section>
+            <section id="about-section-1">
                 <h2>Who am I?</h2>
                 <p>
-                    My name is Dakota Card and I am currently in college studying Computer Programming and Analysis at Georgian COllege in Barrie on pace to graduate in 2025 with an advanced diploma.
+                    My name is Dakota Card and I am currently in college studying Computer Programming and Analysis at Georgian College in Barrie on pace to graduate in 2025 with an advanced diploma. Learning how computers work on the inside and learning how to manipulate them to do what you want has always been a interest of mine and learning new things about this field and industry is always fascinating. I am excited to learn more and grow within this industry, and to see what I can contribute.
                 </p>
             </section>
             <!--section about my schooling-->
-            <section>
-                <h2>Education</h2>
-                <!--list for my education history-->
-                <ul>
-                    <p>Georgian College - 2025 - CMPA Advanced Diploma</p>
-                    <p>Centre Dufferin District Highschool - 2016 - Diploma</p>
-                </ul>
+            <section id="about-section-2">
+                <!--table for education history-->
+                <table>
+                    <thead>
+                        <!--school name, study, location, year of graduation-->
+                        <tr>
+                            <th>School</th>
+                            <th>Location</th>
+                            <th>Field of Study</th>
+                            <th>Year of Graduation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!--college information-->
+                        <tr>
+                            <td>Georgian College</td>
+                            <td>Barrie Campus</td>
+                            <td>Computer Programming and Analyst --- CMPA</td>
+                            <td>2025</td>
+                        </tr>
+                        <!--highschool information-->
+                        <tr>
+                            <td>Centre Dufferin District Highschool</td>
+                            <td>Shelburne, On</td>
+                            <td>Highschool Diploma</td>
+                            <td>2016</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
             <!--section about interests, and what im looking for-->
-            <section>
-                <h2>Work Experience</h2>
-                <!--making a list for my work history-->
-                <ul>
-                    <li>Giant Tiger - Produce Manger - November 2019 - September 2022</li>
-                    <li>Royal Distributing - Sales Floor - February 2018 - October 2019</li>
-                </ul>
+            <section id="about-section-3">
+                <!--table for work history-->
+                <table>
+                    <thead>
+                        <!--work name, location, about, year of leave-->
+                        <tr>
+                            <th>Company</th>
+                            <th>Location</th>
+                            <th>Job Description</th>
+                            <th>Year Left</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!--work history 1-->
+                        <tr>
+                            <td>Giant Tiger</td>
+                            <td>Collingwood, On</td>
+                            <td>
+                                I was the produce manager at Giant Tiger, my responsibilities consisted of ensuring cleanliness, freshness and organization on the floor, as well as in the stock room. Additionally, I was responsible for ordering stock for produce and fresh meat department, as well as looking after and ensuring the same expectations for dairy, deli and bakery departments.
+                            </td>
+                            <td>2019 - 2022</td>
+                        </tr>
+                        <!--work history 2-->
+                        <tr>
+                            <td>Royal Distributing</td>
+                            <td>Innisfil, On</td>
+                            <td>
+                                I was a floor sales staff at Royal, my day to day tasks consisted of keeping departments well kept and organized for customer satisfaction, and also helping customers make sure they're purchasing well-fitting, safe gear.
+                            </td>
+                            <td>2018 - 2022</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
         </main>
-        <footer>
-            &copy; Dakota Card
+        <footer id="about-footer">
+            <!--adding links to relevant website-->
+            <!--Github-->
+            <a href="https://github.com/Dakota-Card-Programming">
+                <img src="./img/github.png" alt="github logo">
+            </a>
+            <!--Linkedin-->
+            <a href="https://www.linkedin.com/in/dakota-card-295108251/">
+                <img src="./img/linkedin.png" alt="linkedin logo">
+            </a>
+            <!--adding copyright-->
+            <div>
+                &copy; Dakota Card
+            </div>
         </footer>
     </body>
 </html>
