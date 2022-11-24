@@ -1,3 +1,6 @@
+/*IMPORTING RESET*/
+@import url(./reset.css);
+
 /*HOME PAGE STYLING*/
 header{
     height: 100%;
