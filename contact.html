@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--linking css-->
     <link rel="stylesheet" href="./styles/style.css">
+    <!--linking google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Patrick+Hand&family=Poppins&display=swap" rel="stylesheet"> 
     <title>Contact Me</title>
 </head>
-    <body>
+    <body class="contact-body">
         <!--the top of our website-->
         <header id="contact-header">
             <!--adding nav to all my pages-->
@@ -19,32 +23,34 @@
                         <a href="./">Home</a>
                     </li>
                     <li>
-                        <a href="./contact.html">Contact Me</a>
+                        <a href="./about.html">About Me</a>
                     </li>
                     <li>
-                        <a href="./about.html">About Me</a>
+                        <a href="./contact.html">Contact Me</a>
                     </li>
                 </ul>
             </nav>
+            <!--header of website-->
+            <div id="contact-title">
+                <h1>Get In Touch</h1>
+            </div>
         </header>
         <main>
             <!--section with all contact-->
             <section id="contact-section-1">
-            <!--header of website-->
-            <h1>Get In Touch</h1>
             <p>
                 I hope you got to know a bit about me and my abilities, I am open to any opportunities and willing to learn if need be. If you have any more questions, feel free to leave your contact information below, and I will get back to you. Or you can contact me at:
             <p>
             <ul>
-                <a href="https://outlook.live.com"></a><li>dakotacard77@outlook.com</li></a>
+                <li>dakotacard77@outlook.com</li>
                 <li>705-717-0313</li>
             </ul>
             </section>
             <!--section with a form for them to leave their contact info-->
             <section id="contact-section-2">
-                <form action="./index.html" method="post" name="assignment-01-contact-me" netlify>
+                <form action="./index.html" method="post" name="assignment-02-contact-me" netlify>
                     <!--Personal Info fieldset-->
-                    <fieldset>
+                    <fieldset id="information">
                         <legend>Your Information</legend>
                         <div>
                             <label for="firstName">First Name:</label><br>
@@ -56,7 +62,7 @@
                         </div>
                     </fieldset>
                     <!--fieldset for contact options-->
-                    <fieldset>                  
+                    <fieldset id="contact">                  
                         <legend>Contact Options</legend>
                         <div>
                             <label for="email">Email:</label><br>
@@ -68,7 +74,7 @@
                         </div>
                     </fieldset>
                     <!--fieldset for why they are here-->
-                    <fieldset>
+                    <fieldset id="inquiry">
                         <legend>Inquiry</legend>
                         <div>
                             <label for="inquiryType">What is the reason for your visit?</label><br>
@@ -85,7 +91,7 @@
                         </div>
                     </fieldset>
                     <!--button so form can be submitted-->
-                    <div>
+                    <div id="submit-btn">
                         <input type="submit" value="Submit Inquiry">
                     </div>
                 </form>
@@ -93,18 +99,23 @@
         </main>
         <footer id="contact-footer">
             <div>
-                <p>Designed and build by</p>
-                &copy; Dakota Card
+                <p>Designed and build by</br>
+                    &copy; Dakota Card
+                </p>
             </div>
             <!--adding links to relevant website-->
             <!--Github-->
-            <a href="https://github.com/Dakota-Card-Programming">
-                <img src="./img/github.png" alt="github logo">
-            </a>
+            <div id="github">
+                <a href="https://github.com/Dakota-Card-Programming">
+                    <img src="./img/github.png"         alt="github logo">
+                </a>
+            </div>
             <!--Linkedin-->
-            <a href="https://www.linkedin.com/in/dakota-card-295108251/">
-                <img src="./img/linkedin.png" alt="linkedin logo">
-            </a>
+            <div id="linkedin">
+                <a href="https://www.linkedin.com/in/dakota-card-295108251/">
+                    <img src="./img/linkedin.png"       alt="linkedin logo">
+                </a>
+            </div>
         </footer>
     </body>
 </html>

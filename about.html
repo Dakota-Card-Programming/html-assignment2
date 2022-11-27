@@ -6,6 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--linking css-->
         <link rel="stylesheet" href="./styles/style.css">
+        <!--linking google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Patrick+Hand&family=Poppins&display=swap" rel="stylesheet"> 
         <title>About Me</title>
     </head>
     <body>
@@ -19,26 +23,29 @@
                         <a href="./">Home</a>
                     </li>
                     <li>
-                        <a href="./contact.html">Contact Me</a>
+                        <a href="./about.html">About Me</a>
                     </li>
                     <li>
-                        <a href="./about.html">About Me</a>
+                        <a href="./contact.html">Contact Me</a>
                     </li>
                 </ul>
             </nav>
             <!--header of website-->
-            <h1>About Me - Dakota Card</h1>
+            <div id="about-title">
+                <h1>About Me - Dakota Card</h1>
+                <h2>Who am I?</h2>
+            </div>
         </header>
         <main>
             <!--section about me-->
             <section id="about-section-1">
-                <h2>Who am I?</h2>
                 <p>
                     My name is Dakota Card and I am currently in college studying Computer Programming and Analysis at Georgian College in Barrie on pace to graduate in 2025 with an advanced diploma. Learning how computers work on the inside and learning how to manipulate them to do what you want has always been a interest of mine and learning new things about this field and industry is always fascinating. I am excited to learn more and grow within this industry, and to see what I can contribute.
                 </p>
             </section>
             <!--section about my schooling-->
-            <section id="about-section-2">
+            <section class="education-table" id="about-section-2">
+                <h3>Education</h3>
                 <!--table for education history-->
                 <table>
                     <thead>
@@ -69,7 +76,8 @@
                 </table>
             </section>
             <!--section about interests, and what im looking for-->
-            <section id="about-section-3">
+            <section class="work-history" id="about-section-3">
+                <h4>Work History</h4>
                 <!--table for work history-->
                 <table>
                     <thead>
@@ -106,19 +114,23 @@
         </main>
         <footer id="about-footer">
             <div>
-                <p>Designed and build by</p>
-                &copy; Dakota Card
+                <p>Designed and build by</br>
+                    &copy; Dakota Card
+                </p>
             </div>
             <!--adding links to relevant website-->
             <!--Github-->
-            <a href="https://github.com/Dakota-Card-Programming">
-                <img src="./img/github.png" alt="github logo">
-            </a>
+            <div id="github">
+                <a href="https://github.com/Dakota-Card-Programming">
+                    <img src="./img/github.png"         alt="github logo">
+                </a>
+            </div>
             <!--Linkedin-->
-            <a href="https://www.linkedin.com/in/dakota-card-295108251/">
-                <img src="./img/linkedin.png" alt="linkedin logo">
-            </a>
-
+            <div id="linkedin">
+                <a href="https://www.linkedin.com/in/dakota-card-295108251/">
+                    <img src="./img/linkedin.png"       alt="linkedin logo" width="20px">
+                </a>
+            </div>
         </footer>
     </body>
 </html>
